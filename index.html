@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Challenge - Module 1</title>
+</head>
+<body>
+    <div class="body-container">
+        <div class="header-search">
+            <h1>Pesquisa de usuários</h1>
+        </div>
+        <div class="container-search">
+            <label id="span-search" for="input-search">Busca</label>
+            <form id="search-box">    
+                <input type="text" id="input-search">
+                <button class="btn-search" type="submit" action="">BUSCAR</button>
+            </form>
+        </div>
+        <div id="container-results">
+            <div id="found-users">
+                <h2 id="quantify-users">Nenhum usuário filtrado</h2>
+                <div id="users"></div>
+            </div>
+            <div id="statistics">
+                <h2 id="statistics-msg">Nada a ser exibido</h2>
+                <div id="info-statistics">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/script/javascript.js" defer></script>
+</html>
